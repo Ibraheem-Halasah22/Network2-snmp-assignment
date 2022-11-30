@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page 1</title>
+    <script src="../scripts/page1_script.js"></script>
+</head>
+<body>
+<div class="sysgrouptable">
+    <table id="systemGroupTable"></table>
+</div>
+
+<div class="edit-get-template">
+
+    <div class="edit-get-table">
+        <form id="sysNewDataForm">
+            <table>
+                <tr>
+                    <td><label for="sysContactTextField"> System Contact New Value </label></td>
+                    <td><input type="text" name="sysContact" id="sysContactTextField"></td>
+                </tr>
+                <tr>
+                    <td><label for="sysLocationTextField"> System Location New Value </label></td>
+                    <td><input type="text" name="sysLocation" id="sysLocationTextField"></td>
+                </tr>
+
+            </table>
+            <button onclick="sendDataUsingGet()">Change the values Using get</button>
+            <button onclick="sendDataUsingPost()">Change the values Using post</button>
+        </form>
+    </div>
+
+</div>
+</body>
+</html>
