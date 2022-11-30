@@ -20,7 +20,7 @@ Http.onloadend = (e) => {
         let tagTr = document.createElement("tr");
         let tagTd0 = document.createElement("td");
         let tagTd1 = document.createElement("td");
-        tagTd1.innerText = systemGroupNames[i];
+        tagTd0.innerText = systemGroupNames[i];
         tagTd1.innerText = sysGroup[`${i}`];
         tagTr.appendChild(tagTd0);
         tagTr.appendChild(tagTd1);
