@@ -4,14 +4,29 @@
     <meta charset="UTF-8">
     <title>Page 1</title>
     <script src="../scripts/page1_script.js"></script>
+    <link rel="stylesheet" href="../css-files/nav_bar_styles.css">
+    <link rel="stylesheet" href="../css-files/table_styles.css">
 </head>
 <body>
-<div class="sysgrouptable">
-    <table id="systemGroupTable">
-        <th>
-        <td>Description</td>
-        <td>Value</td>
-        </th>
+<header>
+    <div class="nav">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="page1.html">System Group</a></li>
+            <li><a href="page2.html">IP Group</a></li>
+            <li><a href="page3.html">TCP Connections</a></li>
+        </ul>
+    </div>
+</header>
+<div class="whole_container">
+    <table class="style_table">
+        <thead>
+        <tr>
+            <th>Description</th>
+            <th>Value</th>
+        </tr>
+        </thead>
+        <tbody id="systemGroupTable"></tbody>
     </table>
 </div>
 

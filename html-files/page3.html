@@ -4,20 +4,39 @@
     <meta charset="UTF-8">
     <title>Page 3</title>
     <script src="../scripts/page3_script.js"></script>
+    <link rel="stylesheet" href="../css-files/nav_bar_styles.css">
+    <link rel="stylesheet" href="../css-files/table_styles.css">
 </head>
 <body>
-<div class="tcpconstable">
-    <table id="TCPConnectionsTable">
-        <th>
-        <td>No.</td>
-        <td>State</td>
-        <td>Local Address</td>
-        <td>Local port</td>
-        <td>Remote Address</td>
-        <td>Remote Port</td>
-        </th>
+<header>
+    <div class="nav">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="page1.html">System Group</a></li>
+            <li><a href="page2.html">IP Group</a></li>
+            <li><a href="page3.html">TCP Connections</a></li>
+        </ul>
+    </div>
+</header>
+<div class="whole_container">
+    <table class="style_table">
+        <thead>
+        <tr>
+            <th>No.</th>
+            <th>State</th>
+            <th>Local Address</th>
+            <th>Local port</th>
+            <th>Remote Address</th>
+            <th>Remote Port</th>
+        </tr>
+        </thead>
+        <tbody id="TCPConnectionsTable">
+
+        </tbody>
+
     </table>
 </div>
+
 
 </body>
 </html>

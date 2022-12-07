@@ -4,29 +4,51 @@
     <meta charset="UTF-8">
     <title>Page 2</title>
     <script src="../scripts/page2_script.js"></script>
+    <link rel="stylesheet" href="../css-files/nav_bar_styles.css">
+    <link rel="stylesheet" href="../css-files/table_styles.css">
 </head>
 <body>
-<div class="ipaddrtable">
-    <table id="IPAddressTable">
-        <th>
-        <td>No.</td>
-        <td>IP Address</td>
-        <td>Number</td>
-        <td>Subnet</td>
-        <td>Number</td>
-        <td>Range</td>
-        </th>
+<header>
+    <div class="nav">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="page1.html">System Group</a></li>
+            <li><a href="page2.html">IP Group</a></li>
+            <li><a href="page3.html">TCP Connections</a></li>
+        </ul>
+    </div>
+</header>
+<div class="whole_container">
+    <table class="style_table">
+        <thead>
+        <tr>
+            <th>No.</th>
+            <th>IP Address</th>
+            <th>Number</th>
+            <th>Subnet</th>
+            <th>Number</th>
+            <th>Range</th>
+        </tr>
+        </thead>
+        <tbody id="IPAddressTable">
+
+        </tbody>
     </table>
 </div>
-<div class="ip_nettomedia_table">
-    <table id="IPNetToMediaTable">
-        <th>
-        <td>No.</td>
-        <td>TTL</td>
-        <td>MAC</td>
-        <td>IP</td>
-        <td>Number</td>
-        </th>
+<div class="whole_container">
+    <table class="style_table">
+        <thead>
+        <tr>
+            <th>No.</th>
+            <th>TTL</th>
+            <th>MAC</th>
+            <th>IP</th>
+            <th>Number</th>
+        </tr>
+        </thead>
+        <tbody id="IPNetToMediaTable">
+
+        </tbody>
     </table>
 </div>
 </body>
